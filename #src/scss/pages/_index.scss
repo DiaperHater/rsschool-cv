@@ -9,6 +9,7 @@ h1,h2,h3,h4,h5, span {
 	color: $title-color;
 }
 
+
 .wrapper {
 	max-width: 980px;
 	margin: 0 auto;
@@ -84,6 +85,8 @@ h1,h2,h3,h4,h5, span {
 		margin-bottom: .5em;
 	}
 	&__caption{
+		font-size: 18px;
+		line-height: 1.3em;
 		width: 70%;
 		margin: 0 auto;
 
@@ -112,5 +115,71 @@ h1,h2,h3,h4,h5, span {
 .s4 {
 	&__content.block--transparent--rounded {
 		background: white;
+	}
+}
+
+.s5 {
+	&__title{
+		text-align: left;
+		margin-bottom: 0.5em;
+	}
+
+	.s5__experience-list{
+		padding-left: 60px;
+		font-size: 18px;
+		line-height: 1.3em;
+		list-style-type: circle;
+
+	}
+}
+
+.s6 {
+	&__title{
+		text-align: left;
+		margin-bottom: 0.5em;
+	}
+
+	.s6__edu-list{
+		padding-left: 60px;
+		font-size: 18px;
+		line-height: 1.3em;
+		list-style-type: circle;
+
+	}
+}
+
+.s7 {
+
+	.wrapper::before{
+		content: none;
+	}
+	&__title{
+		margin-bottom: .5em;
+	}
+	&__caption{
+		font-size: 18px;
+		line-height: 1.3em;
+		width: 70%;
+		margin: 0 auto;
+
+	}
+}
+
+.footer {
+	background: $title-color;
+	&__contacts{
+		display: flex;
+		justify-content: space-between;
+		font-size: 20px;
+		color: white;
+
+		span{
+			color: white;
+			text-transform: uppercase;
+		}
+
+		a{
+			color: #ccbfbf;
+		}
 	}
 }

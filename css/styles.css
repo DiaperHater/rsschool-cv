@@ -245,6 +245,8 @@ span {
 }
 
 .s2__caption {
+  font-size: 18px;
+  line-height: 1.3em;
   width: 70%;
   margin: 0 auto;
 }
@@ -267,4 +269,67 @@ span {
 
 .s4__content.block--transparent--rounded {
   background: white;
+}
+
+.s5__title {
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+.s5 .s5__experience-list {
+  padding-left: 60px;
+  font-size: 18px;
+  line-height: 1.3em;
+  list-style-type: circle;
+}
+
+.s6__title {
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+.s6 .s6__edu-list {
+  padding-left: 60px;
+  font-size: 18px;
+  line-height: 1.3em;
+  list-style-type: circle;
+}
+
+.s7 .wrapper::before {
+  content: none;
+}
+
+.s7__title {
+  margin-bottom: .5em;
+}
+
+.s7__caption {
+  font-size: 18px;
+  line-height: 1.3em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #194a48;
+}
+
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  color: white;
+}
+
+.footer__contacts span {
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer__contacts a {
+  color: #ccbfbf;
 }

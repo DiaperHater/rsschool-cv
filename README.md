@@ -1,2 +1,2 @@
 # rsschool-cv
-https://diaperhater.github.io/rsschool-cv/cv
+https://diaperhater.github.io/rsschool-cv/

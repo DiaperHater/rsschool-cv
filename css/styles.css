@@ -221,6 +221,15 @@ span {
           align-items: start;
 }
 
+.fl-hunt__link{
+  margin-bottom: 20px;
+}
+
+.fl-hunt__img {
+  object-position: center;
+  object-fit: contain;
+}
+
 .s1__contacts-title {
   font-size: 25px;
   text-transform: uppercase;
